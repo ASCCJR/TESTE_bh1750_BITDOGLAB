@@ -58,3 +58,11 @@ Sensor inicializado. Coletando dados...
 Intensidade da Luz: 152.50 lux
 Intensidade da Luz: 153.33 lux
 ```
+## 📂 Estrutura dos Arquivos
+* main.c: A aplicação principal. Orquestra a inicialização do hardware e do sensor, e realiza as leituras em loop.
+* bh1750.c: A implementação do driver do sensor, contendo toda a lógica de comunicação I2C.
+* bh1750.h: O arquivo de cabeçalho (a interface ou API) para o driver do BH1750.
+* CMakeLists.txt: O arquivo de build do projeto.
+
+✍️ Autor
+ASCCJR
