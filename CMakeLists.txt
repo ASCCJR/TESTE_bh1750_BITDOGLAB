@@ -35,7 +35,10 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(TESTE_bh1750 main.c )
+add_executable(TESTE_bh1750 
+        main.c 
+        bh1750.c
+        )
 
 pico_set_program_name(TESTE_bh1750 "TESTE_bh1750")
 pico_set_program_version(TESTE_bh1750 "0.1")
