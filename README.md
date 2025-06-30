@@ -4,7 +4,7 @@
 ![Plataforma](https://img.shields.io/badge/Plataforma-Raspberry%20Pi%20Pico-purple.svg)
 ![Sensor](https://img.shields.io/badge/Sensor-BH1750-yellow.svg)
 
-Este repositório contém um código teste para o sensor de luminosidade I2C BH1750, desenvolvido para ser utilizado na BITDOGLAB
+Este repositório contém um código teste para o sensor de luminosidade I2C BH1750, desenvolvido para ser utilizado na BITDOGLAB.
 
 O projeto destaca-se pela sua **arquitetura modular**, onde o driver do sensor (`bh1750.c` e `bh1750.h`) é completamente separado da aplicação principal (`main.c`). Essa abordagem facilita a reutilização do driver em projetos maiores e mais complexos.
 
@@ -48,7 +48,7 @@ const uint I2C_SCL_PIN = 1;
 ```
 
 ## Visualizar a Saída
-* Conecte o sensor AHT10 na porta I2C configurada
+* Conecte o sensor BH1750 na porta I2C configurada.
 * Abra um monitor serial conectado à porta COM do seu Pico.
 * Você verá a seguinte saída, atualizada a cada segundo:
 ```bash
