@@ -66,4 +66,4 @@ Intensidade da Luz: 153.33 lux
 
 ✍️ Autor
 
-  ASCCJR
+  [ASCCJR]
