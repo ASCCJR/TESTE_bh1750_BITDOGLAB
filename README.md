@@ -65,4 +65,5 @@ Intensidade da Luz: 153.33 lux
 * CMakeLists.txt: O arquivo de build do projeto.
 
 ✍️ Autor
-ASCCJR
+
+  ASCCJR
