@@ -3,6 +3,10 @@
  * @brief Define a interface pública (API) para o módulo do sensor de luz BH1750.
  */
 
+/**
+ * https://github.com/ASCCJR
+ */
+
 #ifndef BH1750_H
 #define BH1750_H
 
