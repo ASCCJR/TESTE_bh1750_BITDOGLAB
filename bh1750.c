@@ -3,6 +3,10 @@
  * @brief Driver para o sensor de luminosidade I2C BH1750.
  */
 
+/**
+ * https://github.com/ASCCJR
+ */
+
 #include "pico/stdlib.h"
 #include "bh1750.h"
 
